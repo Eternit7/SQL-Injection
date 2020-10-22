@@ -43,7 +43,7 @@ class injectTest():
     # 查询显示位有几位
     def display(self):
         display = self.url
-        # url = "http://120.79.15.239:2008/show.php?id=35"
+     
         for i in range(1, 20):
             pay = str(" order by " + str(i))
             res = requests.get(display)
